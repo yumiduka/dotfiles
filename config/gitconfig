@@ -1,3 +1,6 @@
 [user]
-	email = 7194034+yumiduka@users.noreply.github.com
 	name = yumiduka
+	email = 7194034+yumiduka@users.noreply.github.com
+
+[includeIf "gitdir:~/ghq/gitlab.com/"]
+  path = ~/.gitconfig_gitlab
